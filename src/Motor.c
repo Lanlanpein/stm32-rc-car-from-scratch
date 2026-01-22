@@ -27,7 +27,7 @@ void Motor_Init(void)
 }
 
 
-//正转
+//脮媒脳陋
 void Motor_Forward(void)
 {
     GPIO_SetBits(GPIOA, GPIO_Pin_6);  // AIN1=1
@@ -36,7 +36,7 @@ void Motor_Forward(void)
     GPIO_SetBits(GPIOB, GPIO_Pin_6);   // AIN2=1
 }
 
-//反转
+//路麓脳陋
 void Motor_Backward(void)
 {
     GPIO_SetBits(GPIOA, GPIO_Pin_7);  // AIN1=1
