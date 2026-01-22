@@ -1,9 +1,3 @@
-这份 README 文档是根据你提供的代码逻辑（STM32 标准库、UART WiFi通信、L298N电机驱动、PWM调速等）量身定制的。
-
-你可以直接复制下面的 Markdown 内容到你 GitHub 仓库的 `README.md` 文件中。
-
----
-
 # STM32 WiFi Remote Control Car (STM32 WiFi 遥控小车)
 
 本项目是一个基于 **STM32F103** 单片机的 WiFi 遥控小车底层驱动程序。通过 UART 串口接收 WiFi 模块传来的指令，利用 L298N 驱动直流电机，实现小车的前进、后退、转向及多模式速度控制。
